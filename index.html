@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+  <title>FC Barcelona</title>
+
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaeaea;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #004d98;
+  color: #fff;
+  padding: 30px 20px;  /* Increase padding to give more space */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+header h1 {
+  font-size: 3em;  /* Make the text larger */
+  margin: 0;  /* Remove default margin to give more room */
+  font-weight: bold;  /* Make it bolder */
+}
+
+header p {
+  font-size: 1.5em;  /* Increase the size of the subtitle */
+  margin: 0;  /* Remove margin for a cleaner look */
+}
+
+header img {
+  height: 60px;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #a50044;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s;
+}
+
+nav a:hover {
+  color: yellow;
+  transform: scale(1.1);
+}
+
+.container {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgba(51, 51, 51, 0.8);  /* Semi-transparent background */
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 1em;
+  position: relative;
+  z-index: 2;
+  margin-top: -10px;  /* Merge the footer with the content above */
+}
+
+img.content-img {
+  width: 100%;  /* Make sure the image takes up the full width */
+  height: auto;  /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image will cover the entire area */
+}
+
+.full-width {
+  width: 100%;
+  height: 100vh;  /* Ensure the image takes up the full height of the viewport */
+  object-fit: cover; /* Makes the image cover the full area */
+}
+
+
+
+  </style>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="Barça Logo">
+    <div>
+      <h1>FC Barcelona</h1>
+      <p>Més que un club</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="about.html">About</a>
+    <a href="players.html">Players</a>
+    <a href="campnou.html">Camp Nou</a>
+  </nav>
+
+ <img class="content-img full-width" src="barca 2.jpg" alt="barca team">
+  <footer>
+    <p>&copy; Fc Barcelona fan page</p>
+  </footer>
+
+</body>
+</html>

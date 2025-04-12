@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About FC Barcelona</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: white;
+    }
+
+    nav {
+      background-color: #a50044;
+      text-align: center;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease, transform 0.2s;
+    }
+
+    nav a:hover {
+      color: yellow;
+      transform: scale(1.1);
+    }
+
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+    }
+
+    section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px 40px;
+      border-radius: 15px;
+      max-width: 800px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      backdrop-filter: blur(8px);
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #ff0033;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      color: #add8e6;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #add8e6;
+      line-height: 1.6;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="players.html">Players</a>
+    <a href="campnou.html">Camp Nou</a>
+  </nav>
+
+  <section style="background-image: url('https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg');">
+    <div class="content">
+      <h2>Basic Information</h2>
+      <p><strong>Full Name:</strong> Futbol Club Barcelona</p><br>
+      <p><strong>Founded:</strong> November 29, 1899</p><br>
+      <p><strong>Founders:</strong> Joan Gamper and others</p><br>
+      <p><strong>Nickname(s):</strong> Barça, Blaugrana, Culés</p><br>
+      <p><strong>Location:</strong> Barcelona, Spain</p><br>
+      <p><strong>Stadium:</strong> Spotify Camp Nou</p><br>
+      <p><strong>Capacity:</strong> Around 99,000</p><br>
+    </div>
+  </section>
+
+  <section style="background-image: url('6.jpg');">
+    <div class="content">
+      <h2>Achievements</h2>
+      <ul>
+        <li>La Liga Titles: 27</li><br>
+        <li>Copa del Rey: 31</li><br>
+        <li>Champions League: 5</li><br>
+        <li>FIFA Club World Cup: 3</li><br>
+        <li>UEFA Super Cup: 5</li><br>
+        <li>Spanish Super Cup: 14+</li><br>
+      </ul>
+    </div>
+  </section>
+
+  <section style="background-image: url('https://www.nme.com/wp-content/uploads/2016/10/2013tyler-2_RJ300613-3.jpg');">
+    <div class="content">
+      <h2>Global Recognition</h2>
+      <ul>
+        <li>One of the most popular clubs worldwide</li><br>
+        <li>Fanbase across continents</li><br>
+        <li>Motto: <em>"Més que un club"</em></li><br>
+        <li>Symbol of Catalan pride</li><br>
+        <li>La Masia: elite youth academy</li><br>
+      </ul>
+    </div>
+  </section>
+
+  <section style="background-image: url('3.jpeg');">
+    <div class="content">
+      <h2>Legendary Players</h2>
+      <ul>
+        <li>Lionel Messi</li><br>
+        <li>Xavi Hernández</li><br>
+        <li>Andrés Iniesta</li><br>
+        <li>Ronaldinho</li><br>
+        <li>Carles Puyol</li><br>
+      </ul>
+    </div>
+  </section>
+
+  <section style="background-image: url('4.jpeg');">
+    <div class="content">
+      <h2>Management and Structure</h2>
+      <ul>
+        <li>President: Joan Laporta</li><br>
+        <li>Head Coach: Hansi Flick</li><br>
+        <li>Ownership: Socio-based (by fans)</li><br>
+        <li>Main Rivals:</li><br>
+        <ul>
+          <li>Real Madrid (El Clásico)</li><br>
+          <li>Espanyol (Catalan Derby)</li><br>
+          <li>Atlético Madrid</li><br>
+        </ul>
+      </ul>
+    </div>
+  </section>
+
+  <section style="background-image: url('5.jpeg');">
+    <div class="content">
+      <h2>Financial Aspects</h2>
+      <ul>
+        <li>High revenue but past financial struggles</li><br>
+        <li>Sponsors: Nike, Spotify</li><br>
+        <li>Income: TV rights, merchandise, ticket sales</li><br>
+      </ul>
+    </div>
+  </section>
+
+  <section style="background-image: url('7.jpg');">
+    <div class="content">
+      <h2>Current Squad & Style of Play</h2>
+      <ul>
+        <li>Tiki-taka style</li><br>
+        <li>Mix of youth and experienced players</li><br>
+        <li>Active in La Liga, UEFA, Copa del Rey</li><br>
+      </ul>
+    </div>
+  </section>
+
+  <section style="background-image: url('lamasia.jpg');">
+    <div class="content">
+      <h2>Youth Academy: La Masia</h2>
+      <ul>
+        <li>World-famous training academy</li><br>
+        <li>Produced Messi, Xavi, Iniesta, Busquets</li><br>
+        <li>Focus on intelligent, technical football</li><br>
+        <li>Focus on technical skills, tactical intelligence, and possession-based play</li><br>
+        <li>Emphasis on teamwork, humility, and creativity</li><br>
+        <li>Inspired by Johan Cruyff's total football philosophy</li><br>
+        <li>Curriculum includes education, behavior, diet, and discipline</li><br>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
